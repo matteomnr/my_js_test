@@ -19,7 +19,7 @@ npm run build --report
 
 # run unit tests
 npm run unit
-
+md
 # run all tests
 npm test
 ```
@@ -56,6 +56,8 @@ Avant de vous lancer dans la programmation du composant MyRE, testez l'expressio
 #### A faire :
 
  1. Trouvez 2 expressions régulières différentes qui permettent de repérer les phrases qui commencent par 'Der', 'Die' ou 'Das' (mettez votre résultat dans le README.md de votre "branch")``
+ Réponse 1: ^Der|^Die|^Das
+ Réponse 2: 
  2. Modifiez le code de ```MyRE.vue```pour que la page fonctionne et le test fonctionne quelques soient les mots utilisés dans la liste de ```listItems```
  3. Si vous avez le temps, vous pouvez copier ```MyRE.vue```en le nommant ```MyRE2.vue``` pour modifier le fonctionnement de ce composant de sorte à ce que tous les éléments de la liste doivent se trouver dans la phrase testée (n'oubliez pas de générer une nouvelle *route* pour ce composant sous ```src/router/index.js```, c-à-d un nouveau chemin URL http://localhost:8080/#/re2 par exemple)
 
