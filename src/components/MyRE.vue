@@ -44,6 +44,8 @@ export default {
     },
     checkItem () {
       let a = ''
+      a += this.listItems.search('|')
+      console.log(a)
       // A COMPLETER
       // ici vous fabriquez un 'a' en composant les éléments de la liste listItems
       // à l'aide d'une boucle
