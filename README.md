@@ -59,7 +59,7 @@ Avant de vous lancer dans la programmation du composant MyRE, testez l'expressio
 
 Réponse 1: ^Der|^Die|^Das
  
- Réponse 2: 
+ Réponse 2: ^D[er|ie|as]
  
  2. Modifiez le code de ```MyRE.vue```pour que la page fonctionne et le test fonctionne quelques soient les mots utilisés dans la liste de ```listItems```
  3. Si vous avez le temps, vous pouvez copier ```MyRE.vue```en le nommant ```MyRE2.vue``` pour modifier le fonctionnement de ce composant de sorte à ce que tous les éléments de la liste doivent se trouver dans la phrase testée (n'oubliez pas de générer une nouvelle *route* pour ce composant sous ```src/router/index.js```, c-à-d un nouveau chemin URL http://localhost:8080/#/re2 par exemple)
